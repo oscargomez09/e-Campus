@@ -13,5 +13,4 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:src="@drawable/inicio" />
-
 </RelativeLayout>

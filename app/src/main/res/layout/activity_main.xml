@@ -7,18 +7,23 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/container"
-        android:layout_above="@id/boton_navegacion"/>
+        android:layout_above="@id/boton_navegacion" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/boton_navegacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/boton_navegacion"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/boton_nav_menu"/>
+
+
+
+        app:itemIconTint="#AFAFAF"
+        app:itemTextColor="#E8D52E"
+        app:menu="@menu/boton_nav_menu" />
 
 
 </RelativeLayout>
